@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\..\..\Documents\Peashooter.cs" Link="Peashooter.cs" />
+    <Compile Include="..\..\..\..\Downloads\MidtermZombiesVsPlants-main\MidtermZombiesVsPlants-main\app\ConcreteZombieFactory.cs" Link="ConcreteZombieFactory.cs" />
+    <Compile Include="..\..\..\..\Downloads\MidtermZombiesVsPlants-main\MidtermZombiesVsPlants-main\app\ConeZombie.cs" Link="ConeZombie.cs" />
+    <Compile Include="..\..\..\..\Downloads\MidtermZombiesVsPlants-main\MidtermZombiesVsPlants-main\app\RegularZombie.cs" Link="RegularZombie.cs" />
+    <Compile Include="..\..\..\..\Downloads\MidtermZombiesVsPlants-main\MidtermZombiesVsPlants-main\app\ScreenDoorZombie.cs" Link="ScreenDoorZombie.cs" />
+    <Compile Include="..\..\..\..\Downloads\MidtermZombiesVsPlants-main\MidtermZombiesVsPlants-main\app\Zombie.cs" Link="Zombie.cs" />
+    <Compile Include="..\..\..\..\Downloads\MidtermZombiesVsPlants-main\MidtermZombiesVsPlants-main\app\ZombieFactory.cs" Link="ZombieFactory.cs" />
+    <Compile Include="..\BucketZombies.cs" Link="BucketZombies.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="C:\Users\Lenovo\Documents\BucketZombie.cs" Link="BucketZombie.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\MidtermZombiesVsPlants-main\MidtermZombiesVsPlants-main\README.md" Link="README.md" />
+  </ItemGroup>
+
+</Project>
